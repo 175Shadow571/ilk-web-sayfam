@@ -4,24 +4,26 @@ body {
     flex-direction:column;
 }
 
+
+
+
+
+
+
 /********************** header *************************/
-img {
-    height:150px;
-    width:150px;
-    border: 2px solid black;
-    border-radius:10px;
-}
+
 
 .header {
     background-color: #1f2937;
     display: flex;
     justify-content:space-between;
-    padding: 0px 80px;
+    padding: 0px 150px;
 }
 .header h1 {
     font-size:24px;
     color: #f9faf8;
-
+    margin: 0;
+    margin-top: 16px;
 }
 ul {
     list-style: none;
@@ -29,6 +31,7 @@ ul {
     align-items: center;
     font-size:18px;
     gap: 24px;
+    margin: 0;
 }
 a {
      text-decoration:none ;
@@ -37,12 +40,22 @@ a {
 }
 /********************** header *************************/
 
+
+
+
+
+
+
+
+/********************** karsilama *************************/
+
 .karsilama {
     display: flex;
     justify-content:space-between;
+    align-items: center;
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 56px 80px;
+    padding: 100px 150px;
     gap: 32px;
 }
 
@@ -60,3 +73,53 @@ button {
 }
 /********************** karsilama *************************/
 
+
+
+
+
+
+
+
+/********************** Ürünler ***************************/
+
+.urunler{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 0px 150px;
+    justify-content: center;
+
+}
+.container p {
+    width: 250px;
+}
+img {
+    height: 150px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius:10px;
+    object-fit: cover;
+}
+
+/********************** Ürünler ***************************/
+
+
+
+
+
+
+
+
+
+
+
+/********************** Bilgilendirme ***********************/
+
+
+
+
+
+/********************** Bilgilendirme ***********************/
