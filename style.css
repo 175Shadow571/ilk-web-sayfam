@@ -36,3 +36,27 @@ a {
 
 }
 /********************** header *************************/
+
+.karsilama {
+    display: flex;
+    justify-content:space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 56px 80px;
+    gap: 32px;
+}
+
+#imgKarsilama {
+    width: 300px;
+    height: 150px;
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
+/********************** karsilama *************************/
+
