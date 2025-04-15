@@ -1,7 +1,5 @@
 body {
-    display: flex;
     margin: 0;
-    flex-direction:column;
 }
 
 
@@ -16,14 +14,15 @@ body {
 .header {
     background-color: #1f2937;
     display: flex;
-    justify-content:space-between;
-    padding: 0px 150px;
+    justify-content: space-around;
     padding-top: 20px;
 }
 .header h1 {
+    flex: 0;
     font-size:24px;
     color: #f9faf8;
     margin: 0;
+    white-space: nowrap;
     
 }
 ul {
@@ -52,16 +51,18 @@ a {
 
 .karsilama {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     background-color: #1f2937;
+    padding: 32px 0;
     color: #f9faf8;
-    padding: 100px 150px;
     gap: 32px;
 }
-
+.karsilama div{
+    width: 400px;
+}
 #imgKarsilama {
-    width: 900px;
+    width: 450px;
     height: 180px;
     
 }
@@ -95,9 +96,8 @@ button {
 .container{
     display: flex;
     flex-wrap: wrap;
-    gap: 32px;
-    padding: 0px 150px;
-    justify-content: center;
+    gap: 12px;
+    justify-content: space-evenly;
 
 }
 .container p {
@@ -129,7 +129,10 @@ img {
     background-color: #e5e7eb ;
     display: flex;
     flex-direction: column;
-    padding: 50px 200px;
+    padding: 50px 12px;
+    flex: 0;
+    align-items: center;
+
 }
 
 #idbilgilendirme {
